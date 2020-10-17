@@ -1,4 +1,5 @@
 import React from 'react';
+import MyChart from '../MyChart/MyChart';
 
 function HomePage() {
     return (
@@ -78,12 +79,10 @@ function HomePage() {
             </div>
     
             <div className="text-box">     
-                           
+                <h2></h2>
+                <MyChart></MyChart>
+                {/* <canvas id="myChart" width="400" height="400"  ></canvas> */}
                 
-                <h2>Free</h2>
-                <p>
-                    <canvas id="myChart" width="400" height="400"  ></canvas>
-                </p>
             </div>
 
         </div>
